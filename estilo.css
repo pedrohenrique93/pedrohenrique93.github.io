@@ -42,12 +42,19 @@ body{
   bottom:0px;
   right:10%;
   height:100%;
+  -webkit-filter: grayscale(100%);
+  filter: gray; 
+  transition: 5s ;
 }
 
-.circle:hover{
-	-webkit-transform: rotateZ(360deg);
-    transform: rotateZ(360deg);
+
+ 
+.circle img:hover{
+    -webkit-filter: grayscale(0);
+    transition: 3s ;
 }
+
+
 
 .btn{
 	margin-top:2%;
